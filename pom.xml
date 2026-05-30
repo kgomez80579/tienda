@@ -29,6 +29,7 @@
     <properties>
         <java.version>25</java.version>
         <start-class>com.tienda.TiendaApplication</start-class>
+        <maven.compiler.release>17</maven.compiler.release>
     </properties>
     <dependencies>
         <dependency>
@@ -84,8 +85,7 @@
         </dependency>
         <dependency>
             <groupId>org.webjars</groupId>
-            <artifactId>webjars-locator</artifactId>
-            <version>0.52</version>
+            <artifactId>webjars-locator-lite</artifactId>
         </dependency>
         
         <dependency>
